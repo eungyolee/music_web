@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko-kr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- 노래 이미지 및 제목을 표시할 엘리먼트 -->
+  <div id="player">
+    <img id="songImage" src="" alt="Song Image" style="max-width: 100%; max-height: 200px;"><br>
+    <h2 id="songTitle">No Title</h2><br>
+    <audio id="audioPlayer" controls></audio>
+  </div>
+
+  <!-- 음악 목록을 표시할 테이블 -->
+  <table>
+    <thead class="music_list">
+      <tbody id="songList"></tbody>
+    </thead>
+  </table>
+  <script src="index.js"></script>
+</body>
+</html>

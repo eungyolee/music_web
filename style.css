@@ -1,0 +1,17 @@
+#player {
+    background-color: rgb(130, 132, 133);
+    width: 400px;
+    float: left;
+    display: block;
+    text-align: center;
+    height: calc(99vh);
+}
+
+#songImage {
+    margin-top: 4%;
+}
+
+#audioPlayer {
+    margin-top: 4%;
+    width: 100%;
+}
