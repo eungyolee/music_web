@@ -12,12 +12,12 @@ const songImageElement = document.getElementById('songImage');
 async function fetchSongs() {
   try {
     // 음악 목록 가져오기
-    const responseSongs = await fetch('//219.241.14.3:41309/api/music-server/songs');
+    const responseSongs = await fetch('https://api.larang.dev/api/music-server/songs');
     const dataSongs = await responseSongs.json();
     songs = dataSongs.songs;
 
     // 아티스트 목록 가져오기
-    const responseArtists = await fetch('//219.241.14.3:41309/api/music-server/artist');
+    const responseArtists = await fetch('https://api.larang.dev/api/music-server/artist');
     const dataArtists = await responseArtists.json();
     artists = dataArtists.artist;
 
